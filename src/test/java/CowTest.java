@@ -10,4 +10,11 @@ public class CowTest {
         assertEquals(2016, newCow.getBirthYear());
 
     }
+
+    @Test
+    public void getCowName() {
+        Cow cow = new Cow(2016, "Melinda");
+
+        assertEquals("Melinda", cow.getName());
+    }
 }
