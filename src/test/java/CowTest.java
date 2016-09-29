@@ -13,8 +13,8 @@ public class CowTest {
 
     @Test
     public void getCowName() {
+        
         Cow cow = new Cow(2016, "Melinda");
-
         assertEquals("Melinda", cow.getName());
     }
 }
