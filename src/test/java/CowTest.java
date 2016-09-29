@@ -20,5 +20,10 @@ public class CowTest {
         assertEquals("Matilda", this.cow.getName());
     }
 
+    @Test
+    public void pooTest() {
+        assertEquals("Poo", "Poo");
+    }
+
 
 }
